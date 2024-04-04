@@ -5,7 +5,7 @@ Personal dotfile configurations
 
 ```
 echo ".dotfiles" >> .gitignore
-git clone --bare https://github.com/j-min/dotfiles $HOME/.dotfiles
+git clone --bare https://github.com/heesoo-jang/dotfiles $HOME/.dotfiles
 alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dot checkout
 
